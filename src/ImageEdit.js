@@ -36,7 +36,7 @@ export default function ImaAeEditProps(){
             menu: ["shape", "filter", "text"],
             initMenu: "filter",
             uiSize: {
-              width: "75%",
+              width: "70vw",
               height: "700px"
             },
             menuBarPosition: "bottom"

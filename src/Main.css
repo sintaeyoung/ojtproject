@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Nunito:ital,wght@1,694&display=swap');
+
+* {
+  margin:0; 
+  padding:0;
+}
+
+#wrapper{
+    width:100%;
+    height:auto;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+.mainViews{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainViews .mainViews-title{
+
+}
+
+.mainViews .mainView-title p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size:3vw;
+    color:black;
+    letter-spacing: 3px;
+}
+
+.subViews{
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+}
+
+.subViews .subContents-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding:1vw 0;
+}
+
+
+.subViews .subContents-box .subContents{
+    margin:2vh 3vw;
+}   
+
+footer{
+    width:100%;
+    height:200px;
+    background-color: #326da8;
+}

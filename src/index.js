@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ImageEditProps from './ImageEdit';
+import Ieditmain from './Ieditmain';
+import EditNav from './EditNav';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter,Routes ,Route } from "react-router-dom";
+import ImageEdit from './ImageEdit';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ImageEditProps />
+    <BrowserRouter>
+            <EditNav />
+             <Routes>
+                <Route path="/" element={<Ieditmain />}/>
+                <Route path="/imageEdit" element={<ImageEdit />} />
+             </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
